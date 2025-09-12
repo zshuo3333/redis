@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>表单</title>
+    </head>
+    <body>
+        <form  action="/" method="post">
+            <label for="name">用户名：</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="密码">密码：</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <label>性别：</label>
+            <input type="radio" id="male" name="gender" value="male" checked>
+            <label for="male">男</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">女
+            </label>
+            <!---复选-->
+            <p>选择兴趣：</p>
+            <input type="checkbox" id="sports" name="hobby" value="sports">
+            <label for="sports">运动</label>
+
+            <input type="checkbox" id="music" name="hobby" value="music">
+            <label for="music">音乐</label>
+
+            <input type="checkbox" id="reading" name="hobby" value="reading">
+            <label for="reading">阅读</label>
+
+            <br>
+            <label for="country">国家：</label>
+            <select id="country" name="country">
+                <option value="cn">CN</option>
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+            </select>
+            <input type="submit" value="提交">
+        </form>
+        <iframe src="test.html" name="iframe_a"></iframe>
+        <br>
+    </body>
+    <script>
+        document.write("你好")
+        function firstfun()
+        {
+            document.write("你好")
+        }
+    </script>
+    <button type="button" onclick="firstfun()">
+        点击
+    </button>
+</html>
