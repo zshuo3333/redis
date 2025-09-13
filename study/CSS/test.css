@@ -1,0 +1,39 @@
+hr {color:red;}
+p {margin-left:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    border-style: dotted;
+    border-width: 5px;
+    outline-color: black;
+    outline-width:40ex;
+    margin-top:100px;
+    margin-bottom:10px;
+    margin-right:500px;
+    margin-left:50px;
+}
+body{background-color: wheat;background-image: url('LuFei.jpg');
+    background-repeat: no-repeat;
+}
+h1{
+    text-decoration: overline;
+
+}
+h2{
+    
+    text-shadow:8px;
+    word-spacing: 5cm;
+}
+a:link{color: aliceblue;}
+a:visited{color: aqua;}
+a:hover{color: black;}
+a:active{color:blue}
+ul.a {list-style-type:circle;}
+ul.b {list-style-type:square;}
+ol.c {list-style-type:upper-roman;}
+ol.d {list-style-type:lower-alpha;}
+div {
+    width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+}
